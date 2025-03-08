@@ -1,0 +1,126 @@
+# styles.css content placeholder
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+}
+
+header {
+    background-color: #e9f4ff; /* Dark blue */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #004d99; /* Dark blue */
+}
+
+a {
+    color: #008c73; /* Green link color */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #0066cc; /* Medium blue */
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #008c73; /* Green hover effect */
+    color: white;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+form {
+    background-color: #e6f2ff; /* Light blue form background */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"], button {
+    background-color: #004d99; /* Dark blue */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #008c73; /* Green hover effect */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #004d99; /* Dark blue for table headers */
+    color: rgb(61, 3, 3);
+}
+
+td {
+    background-color: #096d3b; /* Light blue for table cells */
+}
+
+/* Footer */
+footer {
+    background-color: #004d99; /* Dark blue */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
